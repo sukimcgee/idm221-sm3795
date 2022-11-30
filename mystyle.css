@@ -4,13 +4,13 @@
 }  
 
 @font-face {
-    font-family: "Anonymous_Pro";
-    src: url("Fonts/Anonymous_Pro/AnonymousPro-Regular.ttf") format("truetype");
+    font-family: "anonymous_pro";
+    src: url("fonts/anonymous_pro/anonymouspro-regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "Sail";
-    src: url("Fonts/Sail/Sail-Regular.ttf") format("truetype");
+    font-family: "sail";
+    src: url("fonts/sail/sail-regular.ttf") format("truetype");
 }
 
 :root{
@@ -93,7 +93,7 @@ main{
 }
 
 p,ul,h2, figcaption{
-    font-family: 'Anonymous_Pro', serif; 
+    font-family: 'anonymous_pro', serif; 
 }
 
 p   { 
@@ -103,7 +103,7 @@ p   {
 }
 
 h1   {
-    font-family: 'Sail', Georgia, Serif;
+    font-family: 'sail', Georgia, Serif;
         font-size: 36pt;
 }
 
