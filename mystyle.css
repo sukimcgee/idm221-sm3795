@@ -1,0 +1,155 @@
+
+*{
+    box-sizing: border-box;
+}  
+
+@font-face {
+    font-family: "Anonymous_Pro";
+    src: url("Fonts/Anonymous_Pro/AnonymousPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Sail";
+    src: url("Fonts/Sail/Sail-Regular.ttf") format("truetype");
+}
+
+:root{
+    
+    background-color: rgb(249, 243, 235); 
+    color: rgb(35, 26, 26);
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width:auto;
+    height:15rem;
+    background: #FFD1CB;
+    top: 0;
+    border-bottom:4px solid black;
+    }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width:auto;
+    height:15rem;
+    background: #FFD1CB;
+    bottom: 0;
+    border-top:4px solid black;
+}
+
+.Logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.MenuList{
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    line-height: 0rem;
+    font-size: 1rem;
+}
+
+.Footer{ 
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: .7em;
+    bottom: 0;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo{
+    font-size:2em;
+    text-align:center;
+}
+
+.Menu{
+    font-size: 14pt;
+    text-align: center;
+    list-style-type: none;
+}
+
+main{
+    padding: 3rem;
+    margin: 3rem;
+}
+
+p,ul,h2, figcaption{
+    font-family: 'Anonymous_Pro', serif; 
+}
+
+p   { 
+    font-size: 1.2em;
+    text-align:left;
+    padding:3rem;
+}
+
+h1   {
+    font-family: 'Sail', Georgia, Serif;
+        font-size: 36pt;
+}
+
+h2  {
+    font-size: 24pt;
+}
+
+ul{ /* List elements*/
+    list-style-position: inside;
+    list-style-type: circle;
+    margin: 0rem;
+    padding: 0;
+    text-align: left;
+}
+
+.PhotoMenu {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    gap: row-gap | column-wrap;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+img{
+    max-width:500px;
+    max-height:auto;
+    padding:2px;
+    margin:2px;  
+}
+
+figcaption {
+    color: black;
+    padding: 2px;
+    text-align: center;
+}
+
+figure{  
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+
